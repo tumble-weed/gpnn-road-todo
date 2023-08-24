@@ -5,7 +5,9 @@
 <details>
   <summary> gpnn </summary>
   
-  ```DBG_GPNN=1 DBG_HIGH_PERCENT=1 DBG_ROAD_EVAL_LOOP_BREAK=1 python run_multi.py --purge true --retrains false --```
+  ```DBG_GPNN=1 DBG_HIGH_PERCENT=1 DBG_ROAD_EVAL_LOOP_BREAK=1 python run_multi.py --purge true --retrains false```
+  
+  [X] remove dutils from cifar, and use the github version
   
   [ ] check gpnn inpainting code ( what is missing? number of levels, patch size, should we go larger than image size? )
   
@@ -17,6 +19,8 @@
 
   [ ] is holefilling problematic at any percentage? ( high area i think )
 
+  [ ] use nearness?
+  
   ---
 </details>
 
