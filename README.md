@@ -9,7 +9,9 @@
   
   [X] remove dutils from cifar, and use the github version
   
-  [ ] check gpnn inpainting code ( what is missing? number of levels, patch size, should we go larger than image size? )
+  [ ] how are keys made?
+
+  [ ] how many levels and when to stop?
   
   [X] pyrdown argument list
   
