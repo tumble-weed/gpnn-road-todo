@@ -7,10 +7,10 @@
   
   ```DBG_GPNN=1 DBG_HIGH_PERCENT=1 DBG_ROAD_EVAL_LOOP_BREAK=1 python run_multi.py --purge true --retrains false```
   
+  [ ] __how are keys made?__
+  
   [X] remove dutils from cifar, and use the github version
   
-  [ ] how are keys made?
-
   [ ] how many levels and when to stop?
   
   [X] pyrdown argument list
