@@ -2,6 +2,12 @@
 
 [x] visualize correlation matrix 
 
+[ ] it seems that earlier bhwc was going in as input to pyrdown. i'm pretty sure it requires bchw. i have made the change, can you confirm that my assumption is correct? 
+
+  - i think there shouldnt be any permute's in pyrdown
+
+  - find all the places in gpnn where resize_bhwc is being used. confirm that the last column is 5 or 3 ( i.e. channels)
+
 <details>
   <summary> gpnn </summary>
   
@@ -9,7 +15,7 @@
   
   [ ] __how are keys made?__
   
-  [ ] it seems that earlier bhwc was going in as input to pyrdown. i'm pretty sure it requires bchw. i have made the change, can you confirm that my assumption is correct? i think there shouldnt be any permute's in pyrdown
+  
   
   [X] remove dutils from cifar, and use the github version
   
