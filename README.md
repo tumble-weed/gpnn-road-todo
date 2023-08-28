@@ -9,6 +9,8 @@
   
   [ ] __how are keys made?__
   
+  [ ] it seems that earlier bhwc was going in as input to pyrdown. i'm pretty sure it requires bchw. i have made the change, can you confirm that my assumption is correct? i think there shouldnt be any permute's in pyrdown
+  
   [X] remove dutils from cifar, and use the github version
   
   [ ] how many levels and when to stop?
